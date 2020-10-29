@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+dna_sequence = "ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
+restriction_site = "AATTC"
+first_fragment = dna_sequence.find(restriction_site,0)
+second_fragment = len(dna_sequence) - first_fragment
+print(first_fragment)
+print(second_fragment)
+
